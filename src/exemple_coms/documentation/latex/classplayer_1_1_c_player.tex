@@ -1,0 +1,134 @@
+\hypertarget{classplayer_1_1_c_player}{}\section{player\+:\+:C\+Player Class Reference}
+\label{classplayer_1_1_c_player}\index{player\+::\+C\+Player@{player\+::\+C\+Player}}
+
+
+classe representant le lecteur  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classplayer_1_1_c_player_a91ed2a2a0c4f4aa1ba480b74ed353b51}{C\+Player} (std\+::list$<$ string $>$ list\+Songs)
+\begin{DoxyCompactList}\small\item\em Constructeur. \end{DoxyCompactList}\item 
+virtual \hyperlink{classplayer_1_1_c_player_a0a50d2f32e2e135ebf26076986bddfb1}{$\sim$\+C\+Player} ()
+\begin{DoxyCompactList}\small\item\em Destructeur. \end{DoxyCompactList}\item 
+bool \hyperlink{classplayer_1_1_c_player_a8be0b27d0749fa87f7b574ace798b135}{add} (std\+::string str\+Song)
+\begin{DoxyCompactList}\small\item\em Ajout d\textquotesingle{}un morceau. \end{DoxyCompactList}\item 
+void \hyperlink{classplayer_1_1_c_player_a7be95660e801b8dfe22e01451e859fce}{next} ()
+\begin{DoxyCompactList}\small\item\em Morceau suivant. \end{DoxyCompactList}\item 
+void \hyperlink{classplayer_1_1_c_player_a6421f061cfe7b72665d15a453555887e}{previous} ()
+\begin{DoxyCompactList}\small\item\em Morceau precedent. \end{DoxyCompactList}\item 
+void \hyperlink{classplayer_1_1_c_player_af72054307e459546e3898137d165ebeb}{play} ()
+\begin{DoxyCompactList}\small\item\em Lecture. \end{DoxyCompactList}\item 
+void \hyperlink{classplayer_1_1_c_player_ad943ab1e4761fd215c0b51646a02c79a}{stop} ()
+\begin{DoxyCompactList}\small\item\em Arret. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+classe representant le lecteur 
+
+La classe gere la lecture d\textquotesingle{}une liste de morceaux 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{player\+::\+C\+Player@{player\+::\+C\+Player}!C\+Player@{C\+Player}}
+\index{C\+Player@{C\+Player}!player\+::\+C\+Player@{player\+::\+C\+Player}}
+\subsubsection[{\texorpdfstring{C\+Player(std\+::list$<$ string $>$ list\+Songs)}{CPlayer(std::list< string > listSongs)}}]{\setlength{\rightskip}{0pt plus 5cm}player\+::\+C\+Player\+::\+C\+Player (
+\begin{DoxyParamCaption}
+\item[{std\+::list$<$ string $>$}]{list\+Songs}
+\end{DoxyParamCaption}
+)}\hypertarget{classplayer_1_1_c_player_a91ed2a2a0c4f4aa1ba480b74ed353b51}{}\label{classplayer_1_1_c_player_a91ed2a2a0c4f4aa1ba480b74ed353b51}
+
+
+Constructeur. 
+
+Constructeur de la classe \hyperlink{classplayer_1_1_c_player}{C\+Player}
+
+
+\begin{DoxyParams}{Parameters}
+{\em list\+Songs} & \+: liste initial des morceaux \\
+\hline
+\end{DoxyParams}
+\index{player\+::\+C\+Player@{player\+::\+C\+Player}!````~C\+Player@{$\sim$\+C\+Player}}
+\index{````~C\+Player@{$\sim$\+C\+Player}!player\+::\+C\+Player@{player\+::\+C\+Player}}
+\subsubsection[{\texorpdfstring{$\sim$\+C\+Player()}{~CPlayer()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual player\+::\+C\+Player\+::$\sim$\+C\+Player (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classplayer_1_1_c_player_a0a50d2f32e2e135ebf26076986bddfb1}{}\label{classplayer_1_1_c_player_a0a50d2f32e2e135ebf26076986bddfb1}
+
+
+Destructeur. 
+
+Destructeur de la classe \hyperlink{classplayer_1_1_c_player}{C\+Player} 
+
+\subsection{Member Function Documentation}
+\index{player\+::\+C\+Player@{player\+::\+C\+Player}!add@{add}}
+\index{add@{add}!player\+::\+C\+Player@{player\+::\+C\+Player}}
+\subsubsection[{\texorpdfstring{add(std\+::string str\+Song)}{add(std::string strSong)}}]{\setlength{\rightskip}{0pt plus 5cm}bool player\+::\+C\+Player\+::add (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{str\+Song}
+\end{DoxyParamCaption}
+)}\hypertarget{classplayer_1_1_c_player_a8be0b27d0749fa87f7b574ace798b135}{}\label{classplayer_1_1_c_player_a8be0b27d0749fa87f7b574ace798b135}
+
+
+Ajout d\textquotesingle{}un morceau. 
+
+Methode qui permet d\textquotesingle{}ajouter un morceau a liste de lecture
+
+
+\begin{DoxyParams}{Parameters}
+{\em str\+Song} & \+: le morceau a ajouter \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si morceau deja present dans la liste, false sinon 
+\end{DoxyReturn}
+\index{player\+::\+C\+Player@{player\+::\+C\+Player}!next@{next}}
+\index{next@{next}!player\+::\+C\+Player@{player\+::\+C\+Player}}
+\subsubsection[{\texorpdfstring{next()}{next()}}]{\setlength{\rightskip}{0pt plus 5cm}void player\+::\+C\+Player\+::next (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classplayer_1_1_c_player_a7be95660e801b8dfe22e01451e859fce}{}\label{classplayer_1_1_c_player_a7be95660e801b8dfe22e01451e859fce}
+
+
+Morceau suivant. 
+
+Passage au morceau suivant \index{player\+::\+C\+Player@{player\+::\+C\+Player}!play@{play}}
+\index{play@{play}!player\+::\+C\+Player@{player\+::\+C\+Player}}
+\subsubsection[{\texorpdfstring{play()}{play()}}]{\setlength{\rightskip}{0pt plus 5cm}void player\+::\+C\+Player\+::play (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classplayer_1_1_c_player_af72054307e459546e3898137d165ebeb}{}\label{classplayer_1_1_c_player_af72054307e459546e3898137d165ebeb}
+
+
+Lecture. 
+
+Lance la lecture de la liste \index{player\+::\+C\+Player@{player\+::\+C\+Player}!previous@{previous}}
+\index{previous@{previous}!player\+::\+C\+Player@{player\+::\+C\+Player}}
+\subsubsection[{\texorpdfstring{previous()}{previous()}}]{\setlength{\rightskip}{0pt plus 5cm}void player\+::\+C\+Player\+::previous (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classplayer_1_1_c_player_a6421f061cfe7b72665d15a453555887e}{}\label{classplayer_1_1_c_player_a6421f061cfe7b72665d15a453555887e}
+
+
+Morceau precedent. 
+
+Passage au morceau precedent \index{player\+::\+C\+Player@{player\+::\+C\+Player}!stop@{stop}}
+\index{stop@{stop}!player\+::\+C\+Player@{player\+::\+C\+Player}}
+\subsubsection[{\texorpdfstring{stop()}{stop()}}]{\setlength{\rightskip}{0pt plus 5cm}void player\+::\+C\+Player\+::stop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classplayer_1_1_c_player_ad943ab1e4761fd215c0b51646a02c79a}{}\label{classplayer_1_1_c_player_ad943ab1e4761fd215c0b51646a02c79a}
+
+
+Arret. 
+
+Arrete la lecture 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\hyperlink{exemple_8cpp}{exemple.\+cpp}\end{DoxyCompactItemize}
