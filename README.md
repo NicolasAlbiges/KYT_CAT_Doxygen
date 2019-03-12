@@ -3,7 +3,7 @@
 
 This repository was created for a quick tutorial on how to install and use doxygen.
 
-You can find it in french on [youtube](https://www.youtube.com/channel/UCgGtccwIRLj-WcpI1ZXnK2Q?view_as=subscriber).
+You can find it in french on [youtube](https://www.youtube.com/watch?v=xUFf8rcAtsM&feature=youtu.be).
 
 ## Requirements
 
